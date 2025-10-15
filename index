@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleção Numismática Brasileira</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>NumisBrasil</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="login.html" class="btn-login">Login</a>
+            <a href="cadastro.html" class="btn-signup">Criar Conta</a>
+<button id="themeToggle" class="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Seu Acervo de Moedas e Cédulas do Brasil em um Só Lugar.</h2>
+                <p>Organize, catalogue e descubra o valor real da sua coleção. Das raras às comemorativas, tenha um controle completo do seu patrimônio numismático.</p>
+                <a href="cadastro.html" class="btn-main">Começar a Colecionar</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400.png?text=Moedas+e+Cedulas" alt="Coleção de moedas e cédulas brasileiras">
+            </div>
+        </section>
+
+        <section class="featured-items">
+            <h3>Destaques da Coleção</h3>
+            <div class="items-grid">
+                <div class="item-card">
+                    <img src="https://via.placeholder.com/200x200.png?text=Moeda+Bandeira" alt="Moeda de 1 Real - Olimpíadas da Bandeira">
+                    <h4>1 Real - Bandeira Olímpica</h4>
+                    <p>Ano: 2012</p>
+                </div>
+                <div class="item-card">
+                    <img src="https://via.placeholder.com/200x200.png?text=Cedula+Cruzeiro" alt="Cédula de 50 Cruzeiros - Carlos Gomes">
+                    <h4>50 Cruzeiros - Carlos Gomes</h4>
+                    <p>Série: 1986</p>
+                </div>
+                <div class="item-card">
+                    <img src="https://via.placeholder.com/200x200.png?text=Moeda+Juscelino" alt="Moeda de 1 Real - Juscelino Kubitschek">
+                    <h4>1 Real - Juscelino Kubitschek</h4>
+                    <p>Ano: 2002</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 NumisBrasil. Todos os direitos reservados.</p>
+    </footer>
+<script src="theme.js"></script>
+</body>
+</html>
